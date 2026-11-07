@@ -1,0 +1,55 @@
+NETFLIX DATA CLEANING SUMMARY
+========================================
+
+Initial rows: 8807
+Initial columns: 12
+Exact duplicate rows removed: 0
+Duplicate show_id rows removed: 0
+Rows removed due to missing show_id/title: 0
+Final rows: 8807
+Final columns: 12
+
+Total missing values before cleaning: 4307
+Total missing values after cleaning: 13
+
+MISSING VALUES BEFORE CLEANING:
+show_id            0
+type               0
+title              0
+director        2634
+cast             825
+country          831
+date_added        10
+release_year       0
+rating             4
+duration           3
+listed_in          0
+description        0
+
+MISSING VALUES AFTER CLEANING:
+show_id          0
+type             0
+title            0
+director         0
+cast             0
+country          0
+date_added      10
+release_year     0
+rating           0
+duration         3
+listed_in        0
+description      0
+
+FINAL DATA TYPES:
+show_id                    str
+type                       str
+title                      str
+director                   str
+cast                       str
+country                    str
+date_added      datetime64[us]
+release_year             Int64
+rating                     str
+duration                string
+listed_in                  str
+description                str
